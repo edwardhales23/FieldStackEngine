@@ -1,0 +1,23 @@
+
+---
+
+### **2. 27_APIMapMonitor**  
+**Description:**  
+Watches a structured map of API endpoints and logs availability, latency, and status codes.
+
+#### **README.md**
+```markdown
+# APIMapMonitor - Grid-Based Endpoint Checker
+
+APIMapMonitor is designed for projects with grouped APIs, letting you scan clusters of endpoints in one go.
+
+## Features
+- Response time logging  
+- Grid-style config file  
+- Export to CSV or JSON  
+
+## Usage
+```bash
+git clone https://github.com/your-username/27_APIMapMonitor.git
+cd 27_APIMapMonitor
+python monitor.py
