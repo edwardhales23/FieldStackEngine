@@ -1,0 +1,23 @@
+
+---
+
+### **3. 27_LogRippleTrace**  
+**Description:**  
+Detects repetition ripples and sudden bursts in system logs based on time and frequency shifts.
+
+#### **README.md**
+```markdown
+# LogRippleTrace - Spike-Aware Log Analyzer
+
+LogRippleTrace identifies recurring error patterns and ripple-effect bursts that may indicate system failure or overload.
+
+## Features
+- Frequency + burst clustering  
+- Timeline correlation  
+- Simple keyword filters  
+
+## Usage
+```bash
+git clone https://github.com/your-username/27_LogRippleTrace.git
+cd 27_LogRippleTrace
+python analyze.py
